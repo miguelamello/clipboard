@@ -37,66 +37,51 @@ You will be graded on the level of detail in each ticket, the clarity of the exe
 - Write a script to assign default custom_id values to existing agents.
 - Add an API endpoint for Facilities to update the custom_id of an Agent associated with them.
 
-### Ticket 2: Update Shifts table to reference custom_id instead of internal id
+Ticket 2: Update Shifts table to reference custom_id instead of internal id
+Acceptance Criteria:
 
-#### Acceptance Criteria:
+Modify the Shifts table to reference the custom_id field instead of the internal id field for the associated Agent.
+Existing shifts should be updated to reference the corresponding custom_id instead of the internal id.
+Ensure that the change does not affect any other functionality of the application.
+Time/Effort estimate: 2-3 hours
 
--  Modify the Shifts table to reference the custom_id field instead of the internal id field for the associated Agent.
-- Existing shifts should be updated to reference the corresponding custom_id instead of the internal id.
-- Ensure that the change does not affect any other functionality of the application.
-#### Time/Effort estimate: 
+Implementation details:
 
-2-3 hours
+Create a migration script to update the Shifts table to reference the custom_id field.
+Write a script to update existing shifts to reference the corresponding custom_id.
+Ticket 3: Update generateReport function to use custom_id
+Acceptance Criteria:
 
-#### Implementation details:
+Modify the generateReport function to use the custom_id field of the Agent associated with each Shift.
+Ensure that the report generated displays the custom_id of each Agent instead of the internal id.
+Ensure that the change does not affect any other functionality of the application.
+Time/Effort estimate: 1-2 hours
 
-- Create a migration script to update the Shifts table to reference the custom_id field.
-- Write a script to update existing shifts to reference the corresponding custom_id.
+Implementation details:
 
-### Ticket 3: Update generateReport function to use custom_id
+Update the generateReport function to use the custom_id field of the Agent associated with each Shift.
+Ticket 4: Update API endpoints to support custom_id
+Acceptance Criteria:
 
-#### Acceptance Criteria:
+Update all relevant API endpoints to support custom_id instead of the internal id field for the associated Agent.
+Ensure that the API responses return the custom_id of each Agent instead of the internal id.
+Ensure that the change does not affect any other functionality of the application.
+Time/Effort estimate: 2-4 hours
 
-- Modify the generateReport function to use the custom_id field of the Agent associated with each Shift.
-- Ensure that the report generated displays the custom_id of each Agent instead of the internal id.
-- Ensure that the change does not affect any other functionality of the application.
+Implementation details:
 
-#### Time/Effort estimate: 
+Update all relevant API endpoints to use the custom_id field of the Agent.
+Update the API responses to return the custom_id of each Agent.
+Ticket 5: Update documentation to reflect changes
+Acceptance Criteria:
 
-1-2 hours
+Update all relevant documentation to reflect the changes made in the previous tickets.
+Ensure that the documentation is clear and accurate.
+Ensure that the change does not affect any other functionality of the application.
+Time/Effort estimate: 1-2 hours
 
-#### Implementation details:
+Implementation details:
 
-- Update the generateReport function to use the custom_id field of the Agent associated with each Shift.
-
-### Ticket 4: Update API endpoints to support custom_id
-
-#### Acceptance Criteria:
-
-- Update all relevant API endpoints to support custom_id instead of the internal id field for the associated Agent.
-- Ensure that the API responses return the custom_id of each Agent instead of the internal id.
-- Ensure that the change does not affect any other functionality of the application.
-
-#### Time/Effort estimate: 
-
-2-4 hours
-
-#### Implementation details:
-
-- Update all relevant API endpoints to use the custom_id field of the Agent.
-- Update the API responses to return the custom_id of each Agent.
-
-### Ticket 5: Update documentation to reflect changes
-
-#### Acceptance Criteria:
-
-- Update all relevant documentation to reflect the changes made in the previous tickets.
-- Ensure that the documentation is clear and accurate.
-- Ensure that the change does not affect any other functionality of the application.
-- Time/Effort estimate: 1-2 hours
-
-#### Implementation details:
-
-- Update all relevant documentation to reflect the changes made in the previous tickets. This includes user guides, API documentation, and developer documentation.
+Update all relevant documentation to reflect the changes made in the previous tickets. This includes user guides, API documentation, and developer documentation.
 
 

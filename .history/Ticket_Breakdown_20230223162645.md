@@ -41,62 +41,48 @@ You will be graded on the level of detail in each ticket, the clarity of the exe
 
 #### Acceptance Criteria:
 
--  Modify the Shifts table to reference the custom_id field instead of the internal id field for the associated Agent.
-- Existing shifts should be updated to reference the corresponding custom_id instead of the internal id.
-- Ensure that the change does not affect any other functionality of the application.
-#### Time/Effort estimate: 
+Modify the Shifts table to reference the custom_id field instead of the internal id field for the associated Agent.
+Existing shifts should be updated to reference the corresponding custom_id instead of the internal id.
+Ensure that the change does not affect any other functionality of the application.
+Time/Effort estimate: 2-3 hours
 
-2-3 hours
+Implementation details:
 
-#### Implementation details:
+Create a migration script to update the Shifts table to reference the custom_id field.
+Write a script to update existing shifts to reference the corresponding custom_id.
+Ticket 3: Update generateReport function to use custom_id
+Acceptance Criteria:
 
-- Create a migration script to update the Shifts table to reference the custom_id field.
-- Write a script to update existing shifts to reference the corresponding custom_id.
+Modify the generateReport function to use the custom_id field of the Agent associated with each Shift.
+Ensure that the report generated displays the custom_id of each Agent instead of the internal id.
+Ensure that the change does not affect any other functionality of the application.
+Time/Effort estimate: 1-2 hours
 
-### Ticket 3: Update generateReport function to use custom_id
+Implementation details:
 
-#### Acceptance Criteria:
+Update the generateReport function to use the custom_id field of the Agent associated with each Shift.
+Ticket 4: Update API endpoints to support custom_id
+Acceptance Criteria:
 
-- Modify the generateReport function to use the custom_id field of the Agent associated with each Shift.
-- Ensure that the report generated displays the custom_id of each Agent instead of the internal id.
-- Ensure that the change does not affect any other functionality of the application.
+Update all relevant API endpoints to support custom_id instead of the internal id field for the associated Agent.
+Ensure that the API responses return the custom_id of each Agent instead of the internal id.
+Ensure that the change does not affect any other functionality of the application.
+Time/Effort estimate: 2-4 hours
 
-#### Time/Effort estimate: 
+Implementation details:
 
-1-2 hours
+Update all relevant API endpoints to use the custom_id field of the Agent.
+Update the API responses to return the custom_id of each Agent.
+Ticket 5: Update documentation to reflect changes
+Acceptance Criteria:
 
-#### Implementation details:
+Update all relevant documentation to reflect the changes made in the previous tickets.
+Ensure that the documentation is clear and accurate.
+Ensure that the change does not affect any other functionality of the application.
+Time/Effort estimate: 1-2 hours
 
-- Update the generateReport function to use the custom_id field of the Agent associated with each Shift.
+Implementation details:
 
-### Ticket 4: Update API endpoints to support custom_id
-
-#### Acceptance Criteria:
-
-- Update all relevant API endpoints to support custom_id instead of the internal id field for the associated Agent.
-- Ensure that the API responses return the custom_id of each Agent instead of the internal id.
-- Ensure that the change does not affect any other functionality of the application.
-
-#### Time/Effort estimate: 
-
-2-4 hours
-
-#### Implementation details:
-
-- Update all relevant API endpoints to use the custom_id field of the Agent.
-- Update the API responses to return the custom_id of each Agent.
-
-### Ticket 5: Update documentation to reflect changes
-
-#### Acceptance Criteria:
-
-- Update all relevant documentation to reflect the changes made in the previous tickets.
-- Ensure that the documentation is clear and accurate.
-- Ensure that the change does not affect any other functionality of the application.
-- Time/Effort estimate: 1-2 hours
-
-#### Implementation details:
-
-- Update all relevant documentation to reflect the changes made in the previous tickets. This includes user guides, API documentation, and developer documentation.
+Update all relevant documentation to reflect the changes made in the previous tickets. This includes user guides, API documentation, and developer documentation.
 
 

@@ -97,6 +97,6 @@ You will be graded on the level of detail in each ticket, the clarity of the exe
 
 #### Implementation details:
 
-- Update all relevant documentation to reflect the changes made in the previous tickets. This includes user guides, API documentation, and developer documentation.
+Update all relevant documentation to reflect the changes made in the previous tickets. This includes user guides, API documentation, and developer documentation.
 
 

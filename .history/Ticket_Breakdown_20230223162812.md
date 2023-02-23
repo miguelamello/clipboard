@@ -71,32 +71,27 @@ You will be graded on the level of detail in each ticket, the clarity of the exe
 
 ### Ticket 4: Update API endpoints to support custom_id
 
-#### Acceptance Criteria:
+Acceptance Criteria:
 
-- Update all relevant API endpoints to support custom_id instead of the internal id field for the associated Agent.
-- Ensure that the API responses return the custom_id of each Agent instead of the internal id.
-- Ensure that the change does not affect any other functionality of the application.
+Update all relevant API endpoints to support custom_id instead of the internal id field for the associated Agent.
+Ensure that the API responses return the custom_id of each Agent instead of the internal id.
+Ensure that the change does not affect any other functionality of the application.
+Time/Effort estimate: 2-4 hours
 
-#### Time/Effort estimate: 
+Implementation details:
 
-2-4 hours
+Update all relevant API endpoints to use the custom_id field of the Agent.
+Update the API responses to return the custom_id of each Agent.
+Ticket 5: Update documentation to reflect changes
+Acceptance Criteria:
 
-#### Implementation details:
+Update all relevant documentation to reflect the changes made in the previous tickets.
+Ensure that the documentation is clear and accurate.
+Ensure that the change does not affect any other functionality of the application.
+Time/Effort estimate: 1-2 hours
 
-- Update all relevant API endpoints to use the custom_id field of the Agent.
-- Update the API responses to return the custom_id of each Agent.
+Implementation details:
 
-### Ticket 5: Update documentation to reflect changes
-
-#### Acceptance Criteria:
-
-- Update all relevant documentation to reflect the changes made in the previous tickets.
-- Ensure that the documentation is clear and accurate.
-- Ensure that the change does not affect any other functionality of the application.
-- Time/Effort estimate: 1-2 hours
-
-#### Implementation details:
-
-- Update all relevant documentation to reflect the changes made in the previous tickets. This includes user guides, API documentation, and developer documentation.
+Update all relevant documentation to reflect the changes made in the previous tickets. This includes user guides, API documentation, and developer documentation.
 
 

@@ -95,8 +95,8 @@ You will be graded on the level of detail in each ticket, the clarity of the exe
 - Ensure that the change does not affect any other functionality of the application.
 - Time/Effort estimate: 1-2 hours
 
-#### Implementation details:
+Implementation details:
 
-- Update all relevant documentation to reflect the changes made in the previous tickets. This includes user guides, API documentation, and developer documentation.
+Update all relevant documentation to reflect the changes made in the previous tickets. This includes user guides, API documentation, and developer documentation.
 
 
