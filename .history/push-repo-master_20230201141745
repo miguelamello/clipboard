@@ -6,4 +6,4 @@ if [[ -z "$Description" ]]; then
 fi
 chmod -Rf 0755 .
 git add . && git commit -a -m "$Description";
-git push --force -v origin main;
+git push --force -v origin master;
